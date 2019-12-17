@@ -311,12 +311,17 @@ of those sections per row.*/
 .topCont {
     margin-top: 10px;
     margin-bottom: 10px;
-    border-bottom: 1px dotted gray;
+    border-bottom: 2px dotted black;
+    margin-right: 45px;
     padding-bottom: 10px;
 }
 
 .aboutHeader {
     margin-left: 250px;
+}
+
+.aboutHeader nav {
+    margin-bottom: 50px;
 }
 
 .sectionCont {
