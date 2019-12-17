@@ -301,13 +301,6 @@ header nav a {
 
 /* about section CSS here (unless already affected by HOME PAGE CSS). */
 
-
-/* notes: Learn more buttons have the following styles: border-radius, 
-border-color: gray, centered.
-sections for the body comprise of h2, p, and anchor - in a column 
-and each of those divs are within a separate div containing two 
-of those sections per row.*/
-
 .topCont {
     margin-top: 10px;
     margin-bottom: 10px;
