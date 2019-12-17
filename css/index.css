@@ -308,6 +308,13 @@ sections for the body comprise of h2, p, and anchor - in a column
 and each of those divs are within a separate div containing two 
 of those sections per row.*/
 
+.topCont {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted gray;
+    padding-bottom: 10px;
+}
+
 .aboutHeader {
     margin-left: 250px;
 }
@@ -321,9 +328,8 @@ of those sections per row.*/
 .imgHmore {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: flex-start;
-    margin: 5px;
 }
 
 .more {
@@ -342,4 +348,12 @@ of those sections per row.*/
 
 .rightCont {
     margin-left: 10px;
+}
+
+.upperCont {
+    margin-top: 10px;
+}
+
+.lowerCont {
+    margin-bottom: 10px;
 }
