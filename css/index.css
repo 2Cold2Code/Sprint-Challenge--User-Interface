@@ -307,3 +307,17 @@ header nav a {
     sections for the body comprise of h2, p, and anchor - in a column 
     and each of those divs are within a separate div containing two 
     of those sections per row.*/
+
+.more {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.imgHmore {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
