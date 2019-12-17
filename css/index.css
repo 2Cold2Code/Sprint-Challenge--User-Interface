@@ -308,6 +308,10 @@ sections for the body comprise of h2, p, and anchor - in a column
 and each of those divs are within a separate div containing two 
 of those sections per row.*/
 
+.aboutHeader {
+    margin-left: 250px;
+}
+
 .sectionCont {
     width: 45%;
     display: flex;
@@ -323,10 +327,19 @@ of those sections per row.*/
 }
 
 .more {
+    text-decoration: none;
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
     margin: 5px;
     width: 35%;
     text-align: center;
+}
+
+.leftCont {
+    margin-right: 10px;
+}
+
+.rightCont {
+    margin-left: 10px;
 }
