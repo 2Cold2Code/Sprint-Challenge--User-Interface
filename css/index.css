@@ -257,3 +257,7 @@ nav {
 nav a {
     padding-top: 30px;
 }
+
+.boxes .box.box1 {
+    background-color: teal;
+}
