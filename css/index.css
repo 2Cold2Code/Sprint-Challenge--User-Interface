@@ -248,3 +248,12 @@ header {
     width: 800px;
     margin-left: 225px;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    padding-top: 30px;
+}
