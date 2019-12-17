@@ -303,16 +303,15 @@ header nav a {
 
 
 /* notes: Learn more buttons have the following styles: border-radius, 
-    border-color: gray, centered.
-    sections for the body comprise of h2, p, and anchor - in a column 
-    and each of those divs are within a separate div containing two 
-    of those sections per row.*/
+border-color: gray, centered.
+sections for the body comprise of h2, p, and anchor - in a column 
+and each of those divs are within a separate div containing two 
+of those sections per row.*/
 
-.more {
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 3px;
-    margin: 5px;
+.sectionCont {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .imgHmore {
@@ -320,4 +319,14 @@ header nav a {
     flex-flow: column wrap;
     justify-content: space-around;
     align-content: flex-start;
+    margin: 5px;
+}
+
+.more {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 35%;
+    text-align: center;
 }
